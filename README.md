@@ -1,2 +1,2 @@
 # voice-control-lock
-A voice controlled lockbox that will match sentences to a key and unlock a box.
+A voice controlled lockbox that will match sentences to a key and unlock the box. The base version of this code is designed to run on a Raspberry Pi-4 with Debian Linux and a Pi-TFT screen attached. However, on a desktop based linux or windows system, the addition of Resemblyzer services allows the system to encode a vector with the users voice, include that vector in the key, and will only unlock based on that voice. A very simple implementation of this project used as part of ECE5725 at Cornell University.
